@@ -4,14 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "inter", sans-serif;
 }
 
 body {
     background-color: #1A0B2E;
-    font-family: "inter", sans-serif;
     color: white;
 }
-
+/* nav bar section */
 header {
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ header button:hover {
 }
 
 
-/* herp section */
+/* hero /baner section */
 .hero-banar {
     max-width: 1600px;
     margin: 0 auto;
@@ -136,7 +136,7 @@ header button:hover {
     margin-bottom: 24px;
     margin-top: 8px;
     color: #a299b1;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .hero-alignment .hero-buttons {
@@ -155,9 +155,9 @@ header button:hover {
     font-weight: 600;
     color: white;
     display: flex;
+    gap: 8px;
     align-items: center;
     justify-content: center;
-    gap: 8px;
     background: linear-gradient(45deg, rgba(247, 233, 63, 1) 0%, rgba(145, 0, 248, 1) 50%, rgba(251, 9, 180, 1) 100%);
     background-size: 200% 100%;
     background-position: left center;
@@ -549,7 +549,6 @@ flex-wrap: wrap;
 
 
 
-
 /* small device responsive */
 @media screen and (max-width: 576px) {
 
@@ -774,6 +773,9 @@ flex-wrap: wrap;
     footer {
         min-height: 360px;
         padding: 20px 0;
+        
+        
+        /* background-size: contain; */
 
     }
 
@@ -797,4 +799,14 @@ flex-wrap: wrap;
         font-size: 0.8rem;
         padding: 8px 12px;
     }
+    .about-rating {
+
+        margin-top: 40px;
+        gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .about-section {
+    padding: 50px;
+}
 }
