@@ -371,6 +371,182 @@ header button:hover {
 
 }
 
+.Episodes {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 120px 200px;
+}
+
+.ep-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.ep-container h1 {
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+
+}
+
+
+.feature-cards {
+    background-color: #250D44;
+    border-radius: 40px;
+    text-align: start;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 380px;
+    max-height: 440px;
+}
+
+.feature-cards iframe {
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 214px;
+}
+
+.cards-info {
+    padding: 24px;
+    height: 226px;
+}
+
+.feature-container h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.feature-container p {
+    color: #a299b1;
+    margin-bottom: 12px;
+}
+
+.min-align {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 6px;
+
+}
+
+.min-align span {
+    font-size: 1rem;
+    color: #00FF88;
+}
+
+.the-host {
+    max-width: 1200px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.the-host h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.host-info {
+    padding: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-align: start;
+    border-radius: 40px;
+}
+
+.host-name h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.host-name p {
+    margin: 16px 0;
+    line-height: 1.8;
+    color: #a299b1;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-links a {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1600px;
+    min-height: 420px;
+    margin: 0 auto;
+    background: url("assets/footer-bg.png") center/cover no-repeat;
+    
+
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    margin: 140px 0 120px 0;
+    width: 1360px;
+}
+
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap:40px;
+    justify-content: center;
+    margin-bottom: 32px;
+flex-wrap: wrap;
+
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #a299b1;
+    font-size: 14px;
+    
+}
+
+
+.footer-info p {
+    color: #a299b1;
+    font-size: 13px;
+}
+
+
 
 
 
@@ -483,11 +659,13 @@ header button:hover {
         grid-template-rows: repeat(1, 1fr);
 
     }
+
     .cont1 {
         grid-row: auto;
         padding: 24px;
 
     }
+
     .cont1 h3,
     .cont2 h3,
     .cont3 h3,
@@ -496,15 +674,18 @@ header button:hover {
         font-size: 1.3rem;
 
     }
+
     .cont2 {
         grid-column: auto;
         padding: 34px;
 
     }
+
     .cont3 {
         grid-column: auto;
         padding: 24px;
     }
+
     .cont4 {
         grid-column: auto;
         padding: 24px;
@@ -517,7 +698,86 @@ header button:hover {
         padding: 24px;
     }
 
+    .Episodes {
+        padding: 40px 20px 60px 20px;
+    }
 
+    .ep-container h1 {
+        margin-bottom: 24px;
+        font-size: 2rem;
+
+    }
+
+    .feature-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+
+
+    }
+
+    .cards-info {
+        padding: 16px;
+        height: 190px;
+    }
+
+    .feature-container h3 {
+        margin-bottom: 8px;
+    }
+
+    .feature-container p {
+        margin-bottom: 8px;
+    }
+
+    .the-host {
+        margin: 60px 0 40px 0;
+    }
+
+    .the-host h1 {
+        font-size: 2rem;
+        margin-bottom: 24px;
+    }
+
+    .host-info {
+        flex-direction: column;
+        gap: 16px;
+        padding: 24px;
+        text-align: center;
+    }
+
+    .host-name h3 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .host-name p {
+        margin: 16px 0;
+        line-height: 1.5;
+        color: #a299b1;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+
+
+    .footer-info {
+       margin: 40px 20px;
+
+    }
+
+    .footer-social {
+       justify-content: center;
+       align-content: center;
+    }
+
+    footer {
+        min-height: 360px;
+        padding: 20px 0;
+
+    }
+
+    
 }
 
 
