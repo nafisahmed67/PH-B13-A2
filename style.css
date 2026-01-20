@@ -773,7 +773,7 @@ flex-wrap: wrap;
     footer {
         min-height: 360px;
         padding: 20px 0;
-        
+    background-image: url("./assets/footer-sm-bg.png");
         
         /* background-size: contain; */
 
